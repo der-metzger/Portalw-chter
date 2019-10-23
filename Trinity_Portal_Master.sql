@@ -7,7 +7,7 @@ By Rochet2 http://rochet2.github.io/
 
 SET
 @ENTRY          := 190000,
-@NAME           := "Portal Master",
+@NAME           := "Portalwächter",
 @SUBNAME        := "",
 @MODEL          := 21572,
 
@@ -57,7 +57,7 @@ INSERT INTO gossip_menu (menuid, textid) VALUES
 
 INSERT INTO npc_text (ID, text0_0, em0_1) VALUES
 (@TEXT_ID+4, "$BWohin möchtest du teleportiert werden?$B", 0),
-(@TEXT_ID+3, "$BBe careful with choosing raids, I won't be there if you wipe.$B", 0),
+(@TEXT_ID+3, "$BSei vorsichtig mit deiner Schlachtzug Wahl, ich werde nicht da sein wenn Du Wipest.$B", 0),
 (@TEXT_ID+2, "$BBist du unterwegs einige Dungeons zu erforschen?$B", 0),
 (@TEXT_ID+1, "$B Für die Alianz!$B", 6),
 (@TEXT_ID,  "$B Für die Horde!$B", 6);
@@ -310,8 +310,8 @@ INSERT INTO gossip_menu_option (menuid, optionid, optionicon, optiontext, option
 (@GOSSIP_MENU+4, 13, 2, "Sunwell Plateau", 1, 1, 0, 0, 0, 0, "Bist du sicher, dass du nach Sunwell Plateau willst?"),
 (@GOSSIP_MENU+4, 14, 2, "The Eye", 1, 1, 0, 0, 0, 0, "Bist du sicher, dass du nach The Eye willst?"),
 (@GOSSIP_MENU+4, 15, 2, "Temple of Ahn'Qiraj", 1, 1, 0, 0, 0, 0, "Bist du sicher, dass du nach Temple of Ahn'Qiraj willst?"),
-(@GOSSIP_MENU+4, 16, 2, "The Eye of Eternity", 1, 1, 0, 0, 0, 0, "Bist du sicher, dass du nach The Eye of Eternity willst?"),
-(@GOSSIP_MENU+4, 17, 2, "The Obsidian Sanctum", 1, 1, 0, 0, 0, 0, "Bist du sicher, dass du nach The Obsidian Sanctum willst?"),
+(@GOSSIP_MENU+4, 16, 2, "Das Auge der Ewigkeit", 1, 1, 0, 0, 0, 0, "Bist du sicher, dass du zum Auge der Ewigkeit willst?"),
+(@GOSSIP_MENU+4, 17, 2, "Das Obsidiansanktum", 1, 1, 0, 0, 0, 0, "Bist du sicher, dass du in das Obsidiansanktum willst?"),
 (@GOSSIP_MENU+4, 18, 2, "Ulduar", 1, 1, 0, 0, 0, 0, "Bist du sicher, dass du nach Ulduar willst?"),
 (@GOSSIP_MENU+4, 19, 2, "Vault of Archavon", 1, 1, 0, 0, 0, 0, "Bist du sicher, dass du nach Vault of Archavon willst?"),
 (@GOSSIP_MENU+4, 21, 2, "Zul'Gurub", 1, 1, 0, 0, 0, 0, "Bist du sicher, dass du nach Zul'Gurub willst?"),
