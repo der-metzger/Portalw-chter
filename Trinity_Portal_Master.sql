@@ -55,7 +55,7 @@ INSERT INTO gossip_menu (menuid, textid) VALUES
 
 -- Gossip header texts
 
-INSERT INTO npc_text (ID, text0_0, em0_1) VALUES
+INSERT INTO npc_text (ID, text0_0, Emote0_1) VALUES
 (@TEXT_ID+4, "$BWohin möchtest du teleportiert werden?$B", 0),
 (@TEXT_ID+3, "$BSei vorsichtig mit deiner Schlachtzug Wahl, ich werde nicht da sein wenn Du Wipest.$B", 0),
 (@TEXT_ID+2, "$BBist du unterwegs einige Dungeons zu erforschen?$B", 0),
@@ -520,7 +520,7 @@ INSERT INTO smart_scripts (entryorguid, source_type, id, link, event_type, event
 -- Teleporter spawns:
 
 ALTER TABLE creature AUTO_INCREMENT = 200000;
-INSERT INTO creature (id, map, spawnMask, phaseMask, modelid, position_x, position_y, position_z, orientation, spawntimesecs, spawndist, curhealth, curmana) VALUES
+INSERT INTO creature (id, map, spawnMask, phaseMask, modelid, position_x, position_y, position_z, orientation, spawntimesecs, wander_distance, curhealth, curmana) VALUES
 (@ENTRY, 0, 1, 1, 0, -13180.5, 342.503, 43.1936, 4.32977, 25, 0, 13700, 6540),
 (@ENTRY, 530, 1, 1, 0, -3862.69, -11645.8, -137.629, 2.38273, 25, 0, 13700, 6540),
 (@ENTRY, 0, 1, 1, 0, -4898.37, -965.118, 501.447, 2.25986, 25, 0, 13700, 6540),
